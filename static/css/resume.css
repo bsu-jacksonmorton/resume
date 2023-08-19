@@ -156,13 +156,17 @@ html {
   }
 
   img{
-      width:75px !important;
-      height:75px !important;
+      /* width:75px !important;
+      height:75px !important; */
   }
 
   table{
-      border-collapse: unset
+      border-collapse: unset;
+      border-spacing:10px
   }
   .section-heading{
-      border-bottom:1px black solid
+      border-bottom:1px black solid;
+  }
+  h3{
+    margin-top: 40px;
   }
