@@ -7,6 +7,6 @@
         "endDate": 2022,
         "graduated": true,
         "gpa": 3.7,
-        "img":"/img/bsu-b.jpg"
+        "img":"img/bsu-b.jpg"
     }
 ]
