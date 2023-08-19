@@ -1,0 +1,12 @@
+
+languageCode = 'en-us'
+title = 'Jackson Morton'
+theme = 'hugo-resume'
+
+[params]
+address = "Boise, ID"
+email = "jacksonmorton98@gmail.com"
+favicon = "/favicon.ico"
+firstName = "Jackson"
+lastName = "Morton"
+profileImage = "/img/me.jpeg"

@@ -1,0 +1,16 @@
+[
+    {
+        "role":"Associate Software Engineer",
+        "company":"PlayOn Agency LLC",
+        "summary":"Led in development of fast paced software teams.\n- list\n- of\n- things",
+        "range":"December 2022 - May 2023",
+        "img": "/img/playonlogo.jpg"
+    },
+    {
+        "role":"Software Engineer Intern",
+        "company":"PlayOn Agency LLC",
+        "summary":"Expedited the synergies of collaborative agile tooling.",
+        "range":"February 2022 - December 2022",
+        "img": "/img/playonlogo.jpg"
+    }
+]

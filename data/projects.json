@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Drive Permission Manager",
+        "description": "An application that helps view/modify folder and file permissions in Google Drive.",
+        "url": "https://github.com/bsu-jacksonmorton/f22-softskills"
+    },
+    {
+        "name": "Identity Server",
+        "description": "A Java RMI based identity server with encrypted communication via SSL.",
+        "url": "https://github.com/bsu-jacksonmorton/id-server-cs455"
+    }
+]

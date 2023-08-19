@@ -1,0 +1,74 @@
+
+
+      <section class="resume-section p-3 p-lg-5 d-flex d-column" id="about">
+        <div class="my-auto">
+          <div class="resume-item d-flex flex-column flex-md-row">
+            <div class="mr-auto">
+              <h1 class="mb-0">{{ .Site.Params.firstName }}
+                <span class="text-primary">{{ .Site.Params.lastName }}</span>
+              </h1>
+              <div class="subheading mb-5">{{ .Site.Params.address }} ·
+                <a href="mailto:{{ substr .Site.Params.email 0 5}}-remove-{{ substr .Site.Params.email 5 }}">{{ substr .Site.Params.email 0 5}}<span style="display:none">-remove-</span>{{ substr .Site.Params.email 5 }}</a>
+              </div>
+
+            </div>
+
+        </div>
+        <div>
+          {{ .Content }}
+          <h3 id="education" class="section-heading">Education</h3>
+          <table>
+              {{ range .Site.Data.education }}
+                <tr>
+                    <td>
+                        <img src="{{.img}}">
+                    </td>
+                    <td>
+                        <div>{{.degree}} - {{.field}}</div>
+                        <small>{{.school}} - {{.endDate}}</small>
+                    </td>
+                </tr>
+              {{ end }}
+          </table>
+          <h3 id="experience" class="section-heading">Experience</h3>
+          <table>
+            {{ range .Site.Data.experience }}
+              <tr>
+                  <td>
+                      <img src="{{.img}}">
+                  </td>
+                  <td>
+                      <div>{{ .company }} - {{ .role }}</div>
+                      <small>{{ .range }}</small>
+                  </td>
+              </tr>
+            {{ end }}
+        </table>
+ 
+          <h3 id="technologies" class="section-heading">Primary Programming Languages</h3>
+          <ul class="list-inline mb-0 pl-1">
+            {{ range .Site.Data.languages }}
+            <li class="list-inline-item">{{ . }}</li>
+            {{ end }}
+          </ul>
+          <h3 class="section-heading">Cloud Services & IaaS</h3>
+          <ul class="list-inline mb-0 pl-1">
+            {{ range .Site.Data.cloud }}
+            <li class="list-inline-item">{{ . }}</li>
+            {{ end }}
+          </ul>
+          <h3 class="section-heading">Libraries/Frameworks</h3>
+          <ul class="list-inline mb-0 pl-1">
+            {{ range .Site.Data.frameworks }}
+            <li class="list-inline-item">{{ . }}</li>
+            {{ end }}
+          </ul>
+          <h3 id="projects" class="section-heading">Projects</h3>
+          {{ range .Site.Data.projects }}
+          <h3>{{ .name }}</h3>
+          <p>{{ .description }}</p>
+          <a href="{{.link}}">Check it out!</a>
+          {{ end }}
+        </div>
+      </div>
+    </section>

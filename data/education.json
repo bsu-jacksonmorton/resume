@@ -1,0 +1,12 @@
+[
+    {
+        "school": "Boise State University",
+        "field": "Computer Science",
+        "degree": "B.S.",
+        "startDate": 2019,
+        "endDate": 2022,
+        "graduated": true,
+        "gpa": 3.7,
+        "img":"/img/bsu-b.jpg"
+    }
+]
