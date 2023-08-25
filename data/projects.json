@@ -1,7 +1,7 @@
 [
     {
         "name": "Drive Permission Manager",
-        "description": "An application that helps view/modify folder and file permissions in Google Drive.",
+        "description": "Drive Permission Manager is an application that allows the user to batch modify file permissions across multiple files in their Google Drive. When using Google Drive through the Google Drive website a user cannot batch remove or change file permissions, they can only add multiple users at one time with the same permission role. With Drive Permission Manager a user is able to accomplish both of these things. Upon selecting a folder a user can view all permission holders for all files beneath it in the hierarchy.",
         "url": "https://github.com/bsu-jacksonmorton/f22-softskills"
     },
     {
