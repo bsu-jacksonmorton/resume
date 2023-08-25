@@ -8,5 +8,10 @@
         "name": "Identity Server",
         "description": "A Java RMI based identity server with encrypted communication via SSL.",
         "url": "https://github.com/bsu-jacksonmorton/id-server-cs455"
+    },
+    {
+        "name": "Chat App",
+        "description": "Current side project that I am working on. Its a simple chat application project that I am using as a medium to learn about React and Go.",
+        "url": "https://github.com/bsu-jacksonmorton/vigilant-octo-succotash"
     }
 ]
