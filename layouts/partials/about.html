@@ -20,6 +20,20 @@
           <p class="p-2">As a recent Computer Science graduate from Boise State University, I am an aspiring software engineer with a strong educational foundation and a thirst for practical experience. During my academic journey, I immersed myself in a wide range of programming languages, algorithms, and software development methodologies. Eager to translate my classroom knowledge into real-world applications, I am now seeking opportunities to contribute and grow in a dynamic software engineering environment.
 
             I am thrilled to explore opportunities that allow me to blend my academic achievements and startup experience to make a meaningful impact. Let's connect to discuss how my passion for software engineering aligns with your team's objectives.</p>
+            <h3 id="experience" class="section-heading">Experience</h3>
+            <table class="p-1">
+              {{ range .Site.Data.experience }}
+                <tr>
+                    <td>
+                        <img style="width:75px; height:75px;" src="{{.img}}">
+                    </td>
+                    <td>
+                        <div>{{ .company }} - {{ .role }}</div>
+                        <small>{{ .range }}</small>
+                    </td>
+                </tr>
+              {{ end }}
+          </table>
           <h3 id="education" class="section-heading">Education</h3>
           <table class="p-1">
               {{ range .Site.Data.education }}
@@ -34,20 +48,7 @@
                 </tr>
               {{ end }}
           </table>
-          <h3 id="experience" class="section-heading">Experience</h3>
-          <table class="p-1">
-            {{ range .Site.Data.experience }}
-              <tr>
-                  <td>
-                      <img style="width:75px; height:75px;" src="{{.img}}">
-                  </td>
-                  <td>
-                      <div>{{ .company }} - {{ .role }}</div>
-                      <small>{{ .range }}</small>
-                  </td>
-              </tr>
-            {{ end }}
-        </table>
+
  
           <h3 id="technologies" class="section-heading">Primary Programming Languages</h3>
           <ul class="list-inline mb-0 pl-1">
